@@ -1,7 +1,0 @@
-FROM python:latest
-
-WORKDIR /app/fastapi
-
-RUN pip install --upgrade pip && \
-    pip install fastapi && \
-    pip install uvicorn

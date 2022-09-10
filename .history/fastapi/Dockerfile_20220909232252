@@ -1,5 +1,0 @@
-FROM python:latest
-
-RUN <<EOF
- pip install fastapi
-EOF
