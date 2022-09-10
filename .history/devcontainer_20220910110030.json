@@ -1,0 +1,14 @@
+{
+	"name": "Existing Docker Compose (Extend)",
+	"dockerComposeFile": [
+        "./docker-compose.yml"
+	],
+    "service": "fastapi",
+    "workspaceFolder": "/app/fastapi",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/sh"
+    },
+	"extensions": [
+	    "python"
+	]
+}

@@ -1,0 +1,9 @@
+FROM python:latest
+
+WORKDIR /app/fastapi
+
+RUN pip install --upgrade pip && \
+    pip install fastapi && \
+    pip install uvicorn && \
+    pip install fastapi_csrf_protect==0.2.1 && \
+    pip install motor==2.5.1

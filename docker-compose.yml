@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  fastapi:
+    build:
+        context: .
+        dockerfile: ./fastapi/Dockerfile
+    container_name: fastapi
+    tty: true
+    volumes:
+      - ./:/app/fastapi
+    ports:
+      - 50010:50010
